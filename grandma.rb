@@ -4,7 +4,7 @@ require 'pry'
 
 def speak_to_grandma(phrase)
   if phrase != phrase.upcase
-    binding.pry
+    #binding.pry
     return "HUH?! SPEAK UP, SONNY!"
   elseif phrase.upcase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
