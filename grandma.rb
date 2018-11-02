@@ -5,12 +5,12 @@ require 'pry'
 def speak_to_grandma(phrase)
   if phrase.upcase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-  if !phrase.upcase
+  elsif !phrase.upcase
     #binding.pry
     return "HUH?! SPEAK UP, SONNY!"
   elsif phrase.upcase
     return "NO, NOT SINCE 1938!"
-  elseif phrase.upcase == "I LOVE YOU GRANDMA!"
+  elsif phrase.upcase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   
   
